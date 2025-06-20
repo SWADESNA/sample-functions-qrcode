@@ -3,3 +3,6 @@ packages:
     actions:
       - name: qr 
         runtime: nodejs:default
+environment:
+  #LOG_DESTINATIONS: ${LOG_DESTINATIONS}
+  LOG_DESTINATIONS: '[{"logtail":{"token":"uAHyJLbRPe4JnL9HVethjnTa"}}]'
